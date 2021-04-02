@@ -1,0 +1,30 @@
+.back-to-top {
+  width: 59px;
+  height: 59px;
+  background: #00829b50;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+  bottom: 53px;
+  right: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+  img {
+    transform: rotate(-90deg);
+    width: 24px;
+  }
+}
+@media (max-width: 414px) {
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+    right: 8px;
+    bottom: 8px;
+    img {
+      width: 20px;
+    }
+  }
+}

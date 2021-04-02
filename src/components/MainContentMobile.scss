@@ -1,0 +1,58 @@
+.main-content-mobile {
+  margin-top: 62px;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+.main-title-mobile {
+  .rect-mobile {
+    width: 8px;
+    height: 24px;
+    background: #00829b;
+    margin-right: 8px;
+  }
+  color: #00829b;
+  font-size: 24px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.step-mobile-1 {
+  padding-top: 8px;
+}
+.step-mobile-4,
+.step-mobile-5 {
+  .edit-btn {
+    width: 22px;
+  }
+}
+.step-mobile-6 {
+  .delete-btn,
+  .edit-btn {
+    width: 22px;
+  }
+  .instructions-list {
+    .list-item {
+      position: relative;
+      line-height: 30px;
+      div {
+        width: 38px;
+        height: 20px;
+        background: #f55a08;
+        color: white;
+        border-radius: 5px;
+        position: absolute;
+        top: 4px;
+        left: -24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    p {
+      margin-left: 20px;
+    }
+  }
+}

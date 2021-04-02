@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react'
+import './App.scss'
+import Navbar from './components/Navbar'
+import BackToTop from './components/BackToTop'
+import Footer from './components/Footer'
+import MainContent from './components/MainContent'
+import MainContentMobile from './components/MainContentMobile'
 
 function App() {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 414)
+  const updateMedia = () => {
+    setIsDesktop(window.innerWidth > 414)
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', updateMedia)
+    return () => window.removeEventListener('resize', updateMedia)
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <BackToTop />
+      <Navbar />
+      {isDesktop ? <MainContent /> : <MainContentMobile />}
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

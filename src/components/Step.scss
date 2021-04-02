@@ -1,0 +1,37 @@
+.step {
+  margin-top: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed #d5d5d5;
+}
+.step-title {
+  font-size: 18px;
+  line-height: 25px;
+  padding-right: 24px;
+  color: #f55a08;
+  display: flex;
+  h5 {
+    font-weight: 400;
+  }
+  span {
+    margin-right: 16px;
+  }
+  .instructions-text {
+    color: #505050;
+  }
+}
+@media (min-width: 992px) {
+  .step {
+    .step-title {
+      padding-right: 0;
+    }
+  }
+  .instructions-img-wrapper {
+    padding-right: 36px;
+  }
+}
+.instructions-img {
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 3px 6px #00000029);
+  filter: drop-shadow(0px 3px 6px #00000029);
+  margin-bottom: 16px;
+}

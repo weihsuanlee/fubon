@@ -5,15 +5,9 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
 );
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
 
-:root {
-  --primary: #0389d1;
-  --secondary: #02b6b2;
-  --light: #fffffd;
-  --desktopBg: #edfbff;
-}
 
 * {
   margin: 0;
@@ -21,9 +15,9 @@ $grid-breakpoints: (
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Helvetica Neue', 'Noto Sans TC', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   p {

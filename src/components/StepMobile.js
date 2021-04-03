@@ -11,8 +11,8 @@ function StepMobile(props) {
   return (
     <div className={`row step-mobile step-mobile-${step}`}>
       <div className="col-12">
-        <div className="step-title">
-          <span>►</span>
+        <div className="step-title-mobile">
+          <span>▲</span>
           <div>
             <h5>步驟 {step}：</h5>
             <div className="instructions-text">{instructions}</div>

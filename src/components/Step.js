@@ -13,7 +13,7 @@ function Step(props) {
     <div className={`row step step-${step}`}>
       <div className="col-sm-12 col-lg-3">
         <div className="step-title">
-          <span>►</span>
+          <span>▲</span>
           <div>
             <h5>步驟 {step}：</h5>
             <div className="instructions-text">{instructions}</div>

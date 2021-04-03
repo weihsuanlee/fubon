@@ -18,7 +18,21 @@
   align-items: center;
   font-weight: 500;
 }
-
+@media (max-width: 300px) {
+  .main-title-mobile {
+    font-size: 18px;
+    .rect-mobile {
+      width: 5px;
+      height: 20px;
+      margin-right: 6px;
+    }
+  }
+}
+@media (max-width: 280px) {
+  .main-title-mobile {
+    font-size: 16px;
+  }
+}
 .step-mobile-1 {
   padding-top: 8px;
 }

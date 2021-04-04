@@ -8,7 +8,7 @@ function MainContent() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 500)
+    }, 1500)
   }, [])
   return (
     <div className="main-content">

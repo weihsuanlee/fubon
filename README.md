@@ -1,4 +1,4 @@
-## [富邦人壽] Fubon Frontend切版測驗  
+## [富邦人壽] Fubon Frontend 切版測驗  
 ![Frame 12](https://user-images.githubusercontent.com/68804592/113497151-96c07c80-9533-11eb-82fa-7434e472f336.png)
 
 <strong>DEMO網址：https://fubon-wei.web.app/</strong>  
